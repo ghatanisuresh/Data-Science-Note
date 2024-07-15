@@ -1,0 +1,29 @@
+---
+date: "2024-07-15"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## What are Artificial Intelligence, Machine Learning, Deep Learning and Generative AI? 
+
+To start off, most people often get confused over these three terms. Artificial intelligence refers to techniques, methodologies, and algorithms that includes those of Machine Learning, Deep Learning, and generative AI. In a general overview, AI equip computers to simulate human behaviour, enabling them to learn, makde decisions, recognize patterns, and solve complex problems in a manner like human intillegence. Therefore, it's objective is to create a intelligent agents, which get the percpetion of the real world through the using of sensors, learn using some of the advanced ML tecniques, make decisions and finally implement through acutators. 
+
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics("D:\\Personal Work\\Note\\Data Science\\Overview.png")
+```
+<center> Hierrachical Relationship</center>
+
+__Machine Learning:__ It is a subset of the AI which is the science of programming a machine to make it learn to perform a task from the data, rather than through programming. 
+
+__Deep Learning:__ It is again the subset of the AI, but also further subset of the Machine Learning field which is an ensemble of tecniques and alogorithm that exploit neural networks for in depth data processing and analytical tasks. And it involves multiple layers of artificial neural netowkrks to extract high-level of features from raw input data, simulating the way human brains, percieve and understand the world. 
+
+__Generative AI:__ This is again the subset of deep learning models which is more advanced form of AI, that has the capacity to generate content like text, images, or code based on provided input.
+
+
+
+
+
+
