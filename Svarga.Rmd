@@ -314,6 +314,195 @@ Here, it serves as the basic guidelines to explore the essential tools that requ
 
 ### What is data sciece? 
 
+Simple definition: Data science is a multidisciplinary field that combines knowledge from various disciplines to help businesses make intelligent decisions through data driven analysis. 
+
+Subsections of data science: 
+
+1. Web Scrapping
+
+2. Data exploration and manipulation
+
+3. Data visualization
+
+4. Model building
+
+
+
+__Python__
+
+* one of the most frequently utilized languages in data research. 
+
+* Libraries for each category in Python: 
+
+    a. Web Scrapping: 
+        * [Beautiful soup](https://beautiful-soup-4.readthedocs.io/en/latest/): Easiest web scraping library
+        
+        * [Scapy](https://docs.scrapy.org/en/latest/): Advanced web scraping
+        
+    b. Data Exploration and Manipulation:
+        
+        * [Pandas](https://pandas.pydata.org/): data manipulation and analysis toolkit
+        
+        * [NumPy](https://numpy.org/doc/): Supports big multidimensional arrays and mats
+        
+        
+    c. Data Visualization:
+    
+        * [Matplotlib](https://matplotlib.org/): The core Python plotting library
+        
+        * [Seaborn](https://seaborn.pydata.org/): A visualization library based on Matplotlib. offers a high level interface for creating attractive statistical graphics. 
+        
+        * [Plotly](https://plotly.com/python/): Interactive graphing library
+        
+    d. Model building:
+    
+        * [Scikit-learn](): the most critical ML library
+        
+        * [TensorFLow](): Good to apply and scale Deep Learning
+        
+        * [PyTorch](): Machine Learning library for image processing and NLP applications
+        
+__R__
+
+* is a potent text analysis tool to address statistical and datat analysis concerns. 
+
+* due to its comprehensive statisitcal power and vast package ecosystem make it quite popular in academia and research
+
+Library: 
+
+a. Web Scraping: 
+
+    * [rvest](https://cran.r-project.org/web/packages/rvest/rvest.pdf): makes web scraping easy be mimicking the exact structure of the web page. 
+    
+    * [Rcurl](https://cran.r-project.org/web/packages/RCurl/RCurl.pdf): R bindings to the curl lib, allowing for anaything that can be done with the curl itself
+    
+
+b. Data Exploration and Manipulation:
+
+    * [dplyr](https://dplyr.tidyverse.org/): It is a grammar of data manipulation offering data manipulation verbs that help make data manipulation easier. 
+    
+    * [tidyr](https://cran.r-project.org/web/packages/tidyr/tidyr.pdf): makes data more accessible by manually spreading and gathering data
+    
+    * [Data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html) : An extension of data.frame with faster data manipulation capabilites
+
+
+c. Data Visualization:
+
+    * [ggplot2](https://ggplot2.tidyverse.org/): Application of the grammar of graphics
+    
+    * [lattice](https://cran.r-project.org/web/packages/lattice/index.html): Better defaults + easy way to create multi-panels-plots
+    
+    * [plotly](https://plotly.com/r/): It converts graphs created with ggplot2 to interactive, user-driven web-based graphs
+    
+    
+d. Model Building
+
+    * [Caret](https://topepo.github.io/caret/): for creating classification and regression models
+    
+    * [nnet](https://www.rdocumentation.org/packages/nnet/versions/7.3-19/topics/nnet): offer functions to build neural networks.
+    
+    * [randomForest](https://cran.r-project.org/web/packages/randomForest/randomForest.pdf): random forest algorithm-based library for classifcation and regression
+
+
+__Excel__
+
+* easy way to use for analyzing and visualizing data. 
+
+* has ability handle large data sets makes it helpful for fast data manipulation and analysis. 
+
+* Key functions: 
+
+a. Data Exploration and Manipulation:
+
+    * FILTER: Filters a spectrum of data depending on your defined criteria
+    
+    * SORT: Sort the elements of a range or array
+    
+    * VLOOKUP/HLOOKUP ; Find the things in tables or ranges by row or column
+    
+    * TEXT TO COLUMNS: This will split the content of a cell into mulitple cells.
+    
+b. Data Visualization:
+
+    * Charts(Bar, Line, Pie): Regular standard chart types to depict data.
+    
+    * PivotTables : It condenses large datasets and creates interactive summaries
+    
+    * Conditional Formatting: Displayes which cells fall under a specific rule
+    
+
+c. Model building: 
+
+    * AVERAGE, MEDIAN, MODE: calculates central tendencies
+    
+    * STDEV.P/STDEV.S : works with the dataset to calculate dataset segregration
+    
+    * LINEST: based on linear regression analysis, statistics for a straingt line 
+    that most matches a data set are returned. 
+    
+    * Regression Analaysis(Data analysis toolpak): uses regression analysis to find the correlations between variables. 
+    
+    
+__SQL_
+
+* Used to interact with relational databases and is needed to store and process data. 
+
+* use to query, update and manage data
+
+* retrieval and analysis. 
+
+
+Most popular SQL systems:
+
+a. [PostgreSQL](https://www.postgresql.org/): object-relational database system
+
+b. [MYSQL](https://www.mysql.com/): A high level, popular open-source database known for its speed and reliablity
+
+c. [MsSQL(Microsoft SQL Server)](https://www.microsoft.com/en-us/sql-server/): developed RDBMS fully integrated Microsof product with enterprise features. 
+
+d. [Oracle](https://www.oracle.com/): is a multi-model DBMS widely used and combines the best relational model with tree-based storage representation
+
+
+__Advanced Visualization Tools__
+
+*  complex data can be transformed into vivid, usable insights. 
+
+* helps to create interactive and shareable dashboards that improve, understand, and make the data accessible at the right time.
+
+Tools: 
+
+a. [Power BI](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop): Business analytics service by Mircosoft that provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their reports and dashboards. 
+
+b. [Tableu](https://www.tableau.com/): A robust data visualization tool that allows users to create interactive and shareable dashboards that give insightful views of the data. It can handles large volumes of data and work well with disparate data sources.
+
+c. [Google Data Studio](https://analytics.google.com/analytics/academy/course/10): is a free parts web-based application that allows you to create dynamic and aesthetic dashboards and reports using data from virtually any source, and other part free, fully customizable, and easy-to-share reports that automatically update using data from your other Google services.
+
+
+
+__Cloud Systems__
+
+* are essential because they can scale, increase flexibility and manage big data sets. 
+
+* they offer computational services, tools, and resources to store, process and analyze data at scale with cost optimization and performance effectiveness. 
+
+Platforms:
+
+a. [AWS(Amazon Web Service)](https://aws.amazon.com/): Provides a highly sophisticated and ever-evolving cloud computing platform that includes a range of services such as storage, computation, machine learning, big data analytics etc. 
+
+b. [Google Cloud](https://cloud.google.com/?hl=en): Offers various cloud computing services that run on the same infrastructure Google uses internally for products such as Google Search and Youtubee, including cloud data analytics, data management, and machine learning.
+
+c. [Microsoft Azure](https://azure.microsoft.com/en-us/): offers cloud computing services, includingg virtual machines, databases, AI, and machine learning tools, and DevOps solutions. 
+
+d. [PythonAnywhere](https://www.pythonanywhere.com/): Cloud-based development and hosting environment allowing to run, develop, and host python applications through a web browser without IT staff setting up a server. Ideal for data science and web app developers who want to deplooy their code quickly. 
+
+
+__LLM's__
+
+* Large Language Models are one of the cutting-edge solutions in AI. 
+
+* can learn and generate text like humans, and they are quite advantageous in a wide range of applications such as NLP, customer Service Automation, Content Generation and so on. Exampes: ChatGPT, Gemini, Claude-3, Microsoft Co-pilot
+
+
 
 
 
