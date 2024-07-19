@@ -240,7 +240,136 @@ Some of the reason for the failure of ML projects.
 
 __No ML without data__
 
-You are within an organization, or have a problem of your own that you want to solve, and you have propelry understand what oppourtunities the ML offers. As from above discussed, we already knew that we need data, computing power and know-how. 
+You are within an organization, or have a problem of your own that you want to solve, and you have properly understand what opportunities the ML offers. As from above discussed, we already knew that we need data, computing power and know-how. 
 
 If you cannot get the data for technical, confidentiality or relational reasons, forget about the ML. Without data, we can do nothing, just we can't grow a plant without a seed. So, success of an ML project must be sponsored "from the top", by those have access the data, by those who can retrieve it and make it available. 
 
+of course we don't need unthinkable amount of data(just numbers help), but the less the data we have, the more difficult to generate value through ML projects.
+
+For more visit [medium] on title can yor business use M ML without data? (https://medium.com/swlh/can-your-business-use-machine-learning-without-data-340c59bf9fb0)
+
+
+### Machine Learning use cases
+
+Below are the use cases for ML, specifically using deep learning: 
+
+a. speech-to-text processing of the phone call
+
+* In the past, this was attempted using preset programs, but only the use of AI has allowed for optimal results. 
+
+* Service is normally offered by the big players: Google, Microsoft, Amazon, etc who have trained the model with millions of sentences; that are available through API
+
+* Once you got the text, we can perform several operations: 
+
+    - a semnatic or liexical analysis, which is translation to text
+  
+b. recognition of ab object in a photo or video
+
+* an image or a video, receiving in response an on/off when an object is recognized or classification 
+
+* depends on the compatibility between the trained model and the request that is made. 
+
+c. optimization of inbound calls of call center
+
+* company must have previous call history divided in to the individual steps made by the operator; with them, we must be able to build a chain of events that have led to a final solution
+
+* having a large number of these chains at out disposal, we train a model according to ML algorithms, which is necessary to have specific competence at this point to understand which is the most suitable algorithm and the calibration of the parameters necessary to obtain the best result. It is often at this point that the best intentions collapse; it is not enough to feed the data to any model, it is necessary to identify and calibrate the right model.
+
+* Once the model has been trained, made available to call center
+* once the call has been received and the first step has been taken, we will probably alrady have the next step available; after the second step, the probability of 'guessin'the next step will be even higher, and so on, optimizing the process. 
+
+
+__can be applied to all cases where there is sequence of events__
+
+* Actions of a user on the site to predict whether he will buy a product or not
+* Analysis of random movements to predict the next event
+* Fault/defect analysis to recognize the probability of failure from the current operation
+* Analysis of behavior to predict criminal phenomena (Minority report?)
+
+Some of the great resources good to go: 
+
+_Note: this sources is from colabaration with [Derek Snow](https://github.com/firmai)_
+
+_ Research paper with code:https://paperswithcode.com/_
+
+_[9 practical life lessions from Sun Tzu's Art of War](https://blog.tutorabcchinese.com/chinese-culture/life-lessons-from-the-art-of-war)
+
+_ [AI, automation, and the future of work: ten things to solve](https://www.mckinsey.com/featured-insights/future-of-work/ai-automation-and-the-future-of-work-ten-things-to-solve-for)
+
+_ [10 Research backed studying techniques to try in 2022](https://examinedexistence.com/top-10-learning-techniques-ranking-from-best-to-worst/)
+
+_[Self motivation techniques using mind visualization](https://www.mindtosucceed.com/Self-Motivation-Techniques.html)
+
+_[Getting things done](https://en.wikipedia.org/wiki/Getting_Things_Done)
+
+_[implementation intentions](https://www.semanticscholar.org/paper/Implementation-intentions%3A-Strong-effects-of-simple-Gollwitzer/4c216c0ceeef2e2745d113c77a417133c2084dd9?p2df)
+
+
+
+
+### Tools Every Data Scientist should know: A practical Guide
+
+Here, it serves as the basic guidelines to explore the essential tools that require or needed to elevate their data science game, from Python and R to SQL and advanced visulization tools. [Source](https://www.kdnuggets.com/tools-every-data-scientist-should-know-a-practical-guide)
+
+
+### What is data sciece? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note: For later use: 
+For web scrapping: Octaparse, parsehub, dexi.io
+From harvard: 
+1. CS50’s Introduction to Programming with Python:
+
+The course is designed for students with or without prior programming experience who’d like to learn Python specifically.
+
+Check this out: https://cs50.harvard.edu/python/2022/
+
+2. Statistics:
+
+Learn the fundamentals of statistics required for Data Science
+
+https://edx.org/learn/data-science/harvard-university-data-science-inference-and-modeling
+
+3. Data Pre-Processing:
+
+This will teach you to prepare data and convert it into a format that is easily digestible by machine learning models.
+
+https://edx.org/learn/data-science/harvard-university-data-science-wrangling
+
+4. Data Visualization:
+
+Learn to build visualizations using the ggplot2 library in R, along with the principles of communicating data-driven insights.
+
+https://edx.org/learn/data-visualization/harvard-university-data-science-visualization
+
+5. Machine Learning
+
+This course will teach you the basics of machine learning, techniques to mitigate overfitting, supervised and unsupervised modelling approaches, and recommendation systems.
+
+https://edx.org/learn/machine-learning/harvard-university-data-science-machine-learning
+
+6. Capstone Project:
+
+ Build a Data science project from scratch:
+
+After completing all the above courses take Harvard’s data science capstone project.
+
+Assess your skills in data visualization, statistics, data wrangling and machine learning.
+
+https://edx.org/learn/data-science/harvard-university-data-science-capstone
